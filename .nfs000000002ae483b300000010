@@ -1,0 +1,18 @@
+
+
+
+#masking 
+python3 masking.py 
+
+
+cp masked.png inpaint/masked.png
+
+cp data/origin.png inpaint
+
+cd inpaint
+#inpaint
+python3 inpaint.py
+
+
+cd ..
+
